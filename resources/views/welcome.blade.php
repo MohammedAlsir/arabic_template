@@ -5,7 +5,7 @@
 	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>التأمينات المحدودة</title>
+	<title>mmmالتأمينات المحدودة</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
@@ -13,7 +13,7 @@
 
     <!-- Bootstrap core CSS     -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-	
+
 		<!-- Bootstrap RTL core CSS     -->
     <link href="assets/css/bootstrap-rtl.min.css" rel="stylesheet" />
 
@@ -22,7 +22,7 @@
 
     <!--  Light Bootstrap Table core CSS    -->
     <link href="assets/css/light-bootstrap-dashboard.css" rel="stylesheet"/>
-	
+
 	  <!--  Light Bootstrap RTL Version CSS    -->
     <link href="assets/css/light-bootstrap-dashboard-rtl.css" rel="stylesheet"/>
 
@@ -88,7 +88,7 @@
                         <p>عنوان</p>
                     </a>
                 </li>
-                
+
                 <li>
                     <a href="notifications.html">
                         <i class="pe-7s-bell"></i>
@@ -126,7 +126,7 @@
                     </ul>
 
                     <ul class="nav navbar-nav navbar-left">
-                        
+
                         <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     <i class="fa fa-globe"></i>
@@ -140,7 +140,7 @@
                         </li>
                         <li class="dropdown">
                               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    محمد خالد 
+                                    محمد خالد
                                     <b class="caret"></b>
                               </a>
                               <ul class="dropdown-menu">
@@ -152,7 +152,7 @@
                                 خروج
                             </a>
                         </li>
-                        
+
                     </ul>
                 </div>
             </div>
@@ -174,7 +174,7 @@
                                 <div class="footer">
                                     <div class="legend">
                                         <i class="fa fa-circle text-info"></i> طلبات التعويض
-                                        <i class="fa fa-circle text-danger"></i> طلبات 
+                                        <i class="fa fa-circle text-danger"></i> طلبات
                                         <i class="fa fa-circle text-warning"></i>  الطلبات الراجعة
                                     </div>
                                 </div>
@@ -199,7 +199,7 @@
                             </div>
                         </div>
                     </div>
-                   
+
                 </div>
             </div>
         </div>
@@ -207,7 +207,7 @@
 
         <footer class="footer">
             <div class="container-fluid">
-              
+
                 <p class="copyright pull-left">
                     2021 &copy;كل الحقوق محفوظة
                 </p>
@@ -242,7 +242,7 @@
 	<!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
 	<script src="assets/js/demo.js"></script>
 
-	
+
 	<script type="text/javascript">
     	$(document).ready(function(){
 
@@ -254,7 +254,7 @@
             },{
                 type: 'info',
                 timer: 4000,
-								placement: { 
+								placement: {
 									from: 'top',
 									align: 'left'
 								}
