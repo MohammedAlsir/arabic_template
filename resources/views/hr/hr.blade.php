@@ -93,7 +93,7 @@
                  </ul>
 
                 </li>
-            
+
                 <li>
                     <a href="typography.html">
                         <i class="pe-7s-news-paper"></i>
@@ -110,7 +110,7 @@
                 <li>
                     <a href="notifications.html">
                         <i class="pe-7s-bell"></i>
-                        <p>التارير</p>
+                        <p>التقارير</p>
                     </a>
                 </li>
 				<li class="active-pro">
@@ -159,7 +159,7 @@
                         </li>
                         <li class="dropdown">
                               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    محمد خالد
+                                    محمد سراج
                                     <b class="caret"></b>
                               </a>
                               <ul class="dropdown-menu">

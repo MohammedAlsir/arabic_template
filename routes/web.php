@@ -15,9 +15,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 Route::get('/', function () {
-    return view('tawid');
+    return view('welcome');
 });
+// Route::get('/hr/tawid', function () {
+//     return view('tawid')->name('tawid.hr');
+// });
+
+// Route::get('/hr', function () {
+//     return view('maash')->name('maash.hr');
+// });
+
+// Route::get('/hr', function () {
+//     return view('hr')->name('hr');
+// });
+
+// Route::get('/hr', function () {
+//     return view('tawid')->name('tawid.hr');
+// });
