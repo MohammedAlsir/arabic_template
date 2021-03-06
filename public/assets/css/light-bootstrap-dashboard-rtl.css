@@ -1,6 +1,7 @@
 /* Set Fonts */
 * {
   font-family: 'Droid Arabic Kufi'!important;
+
 }
 
 .fa {
@@ -16,6 +17,8 @@
 .sidebar {
   left: auto;
   right: 0px;
+  background-color: white;
+  color:#9a9fa3;
 }
 
 .main-panel {
@@ -23,15 +26,18 @@
 }
 
 .sidebar .nav i {
-  float: right;
-  margin-right: 0;
-  margin-left: 15px;
-}
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+  }
 
+  .sidebar .nav li.active > a {
+    background-color: #d73330;
+}
 
 /*.alert span[data-notify="message"] {
 	margin-left: 0px;
-  margin-right: 50px; 
+  margin-right: 50px;
 }*/
 
 .alert.alert-with-icon {
@@ -61,7 +67,6 @@
     left: auto!important;
     right: 0!important;
 	}
-}
 
 .caret {
 	margin-top: 6px;
