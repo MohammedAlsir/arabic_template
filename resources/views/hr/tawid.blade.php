@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('tawid','active')   
 @section('content')
     <div class="content">
         <div class="container-fluid">
@@ -6,7 +7,7 @@
                 <div class="col-md-8">
                     <div class="card">
                         <div class="header">
-                            <h4 class="title">طلب معاش</h4>
+                            <h4 class="title">طلب تعويض</h4>
                         </div>
                         <div class="content">
                             <form>
@@ -91,15 +92,10 @@
                                             <input type="text" class="form-control" placeholder="کشور" value="100000$">
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <label>کد پستی</label>
-                                            <input type="number" class="form-control" placeholder="کد پستی">
-                                        </div>
-                                    </div>
+                                    
                                 </div>
 
-                                <button type="submit" class="btn btn-info btn-fill pull-right">إرسال الطلب</button>
+                                <button type="submit" class="btn btn-info btn-fill pull-left">إرسال الطلب</button>
                                 <div class="clearfix"></div>
                             </form>
                         </div>
@@ -113,14 +109,14 @@
                         <div class="content">
                             <div class="author">
                                  <a href="#">
-                                <img class="avatar border-gray" src="assets/img/faces/face-3.jpg" alt="...">
+                                <img class="avatar border-gray" src="{{asset('assets/img/faces/face-3.jpg')}}" alt="...">
 
-                                  <h4 class="title">محمد سراج<br>
-                                     <small>Programmer</small>
+                                  <h4 class="title">محمد احمد عبدالله<br>
+                                     <small>Mohammed</small>
                                   </h4>
                                 </a>
                             </div>
-                            <p class="description text-center"> Software Tester<br>  جوجه خود را او  تا تشنه <br>من در آن لامبورگینی دو صندلی هستم "
+                            <p class="description text-center">بيانات وتفاصيل <br> عن المتقدم لطلب التعويض <br>بيانات تخض محمد احمد عبدالله
                             </p>
                         </div>
                         <hr>

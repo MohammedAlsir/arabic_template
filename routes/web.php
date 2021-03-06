@@ -17,14 +17,15 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
-// Route::get('/hr/tawid', function () {
-//     return view('tawid')->name('tawid.hr');
-// });
+})->name('home');
 
-// Route::get('/hr', function () {
-//     return view('maash')->name('maash.hr');
-// });
+Route::get('/hr/tawid', function () {
+    return view('hr.tawid');
+})->name('tawid');
+
+Route::get('hr', function () {
+    return view('hr.maash');
+})->name('hr');
 
 // Route::get('/hr', function () {
 //     return view('hr')->name('hr');

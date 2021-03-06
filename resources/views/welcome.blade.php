@@ -1,3 +1,5 @@
+@section('home','active')   
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -41,70 +43,8 @@
 <body>
 
 <div class="wrapper">
-    <div class="sidebar" data-color="purple" data-image="assets/img/sidebar-5.jpg">
-
-    <!--
-
-        Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
-        Tip 2: you can also add an image using data-image tag
-
-    -->
-
-    	<div class="sidebar-wrapper">
-            <div class="logo">
-                <a href="http://www.creative-tim.com" class="simple-text">
-                    التأمينات المحدودة
-                </a>
-            </div>
-
-            <ul class="nav">
-                <li class="active">
-                    <a href="dashboard.html">
-                        <i class="pe-7s-graph"></i>
-                        <p>الرئيسية</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="user.html">
-                        <i class="pe-7s-user"></i>
-                        <p>العنوان الاول</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="table.html">
-                        <i class="pe-7s-note2"></i>
-                        <p>عنوان </p>
-                    </a>
-                </li>
-                <li>
-                    <a href="typography.html">
-                        <i class="pe-7s-news-paper"></i>
-                        <p>عنوان</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="icons.html">
-                        <i class="pe-7s-science"></i>
-                        <p>عنوان</p>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="notifications.html">
-                        <i class="pe-7s-bell"></i>
-                        <p>عنوان</p>
-                    </a>
-                </li>
-				<li class="active-pro">
-                    <a href="upgrade.html">
-                        <i class="pe-7s-rocket"></i>
-                        <p>حول النظام</p>
-                    </a>
-                </li>
-            </ul>
-    	</div>
-    </div>
-
+    
+    @include('layouts.sidebar')
     <div class="main-panel">
         <nav class="navbar navbar-default navbar-fixed">
             <div class="container-fluid">

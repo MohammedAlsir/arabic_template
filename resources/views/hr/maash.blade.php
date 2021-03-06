@@ -1,4 +1,6 @@
 @extends('layouts.master')
+@section('maash','active')   
+
 @section('content')
     <div class="content">
         <div class="container-fluid">

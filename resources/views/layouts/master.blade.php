@@ -1,6 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <style>
+        .in{
+            list-style: none;
+            padding: 5px
+        }
+        .on:hover{
+            background-color: brown !important;
+        }
+    </style>
 	<meta charset="utf-8" />
 	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -12,118 +21,42 @@
 
 
     <!-- Bootstrap core CSS     -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet" />
 
 		<!-- Bootstrap RTL core CSS     -->
-    <link href="assets/css/bootstrap-rtl.min.css" rel="stylesheet" />
+    <link href="{{asset('assets/css/bootstrap-rtl.min.css')}}" rel="stylesheet" />
+
 
     <!-- Animation library for notifications   -->
-    <link href="assets/css/animate.min.css" rel="stylesheet"/>
+    <link href="{{asset('assets/css/animate.min.css')}}" rel="stylesheet" />
+
 
     <!--  Light Bootstrap Table core CSS    -->
-    <link href="assets/css/light-bootstrap-dashboard.css" rel="stylesheet"/>
+    <link href="{{asset('assets/css/light-bootstrap-dashboard.css')}}" rel="stylesheet" />
+
 
 	  <!--  Light Bootstrap RTL Version CSS    -->
-    <link href="assets/css/light-bootstrap-dashboard-rtl.css" rel="stylesheet"/>
+    <link href="{{asset('assets/css/light-bootstrap-dashboard-rtl.css')}}" rel="stylesheet" />
+
 
 
     <!--  CSS for Demo Purpose, don't include it in your project     -->
-    <link href="assets/css/demo.css" rel="stylesheet" />
+    <link href="{{asset('assets/css/demo.css')}}" rel="stylesheet" />
+
 
 
     <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/earlyaccess/droidarabickufi.css' rel='stylesheet' type='text/css'>
-    <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
+    <link href="{{asset('assets/css/pe-icon-7-stroke.css')}}" rel="stylesheet" />
 
 </head>
 <body>
 
 <div class="wrapper">
-    <div class="sidebar" data-color="#ffffff" data-image="assets/img/sidebar-5.jpg">
-
-    <!--
-
-        Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
-        Tip 2: you can also add an image using data-image tag
-
-    -->
-
-    	<div class="sidebar-wrapper">
-            <div class="logo">
-                <a href="http://www.creative-tim.com" class="simple-text">
-                    التأمينات الإجتماعية
-                </a>
-            </div>
-
-            <ul class="nav">
-                <li class="">
-                    <a href="dashboard.html">
-                        <i class="pe-7s-graph"></i>
-                        <p>الرئيسية</p>
-                    </a>
-                </li>
-                <li class="">
-                    <a href= "#b" data-toggle="collapse" aria-controls="ture" >
-                     <span class="hidden-sm hidden-xs">طلبات التعويض</span>
-                     <span><i class="pe-7s-user"></i></span>
-
-
-                    </a>
-
-                    <ul class="collapse collapseable" id="b">
-                     <li> <a href="{{'/supervisers/create'}}">الطلبات الجديدة</a> </li>
-                     <li> <a href="{{'/supervisers/show'}}">قيد المراجعة</a> </li>
-                     <li> <a href="{{'/supervisers/show'}}">المرتجع</a> </li>
-                    </ul>
-
-                </li>
-
-                <li class="active">
-                    <a href= "#c" data-toggle="collapse" aria-controls="ture" >
-                     <span class="hidden-sm hidden-xs">طلبات المعاش</span>
-                     <span><i class="pe-7s-user"></i></span>
-                    </a>
-
-                    <ul class="collapse collapseable" id="c">
-                        <li><a href="{{'/supervisers/create'}}">الطلبات الجديدة</a> </li>
-                        <li> <a href="{{'/supervisers/show'}}">قيد المراجعة</a> </li>
-                        <li> <a href="{{'/supervisers/show'}}">المرتجع</a> </li>
-                 </ul>
-
-                </li>
-
-                <li>
-                    <a href="typography.html">
-                        <i class="pe-7s-news-paper"></i>
-                        <p>الشكاوى</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="icons.html">
-                        <i class="pe-7s-science"></i>
-                        <p>الدعم الفني</p>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="notifications.html">
-                        <i class="pe-7s-bell"></i>
-                        <p>التارير</p>
-                    </a>
-                </li>
-				<li class="active-pro">
-                    <a href="upgrade.html">
-                        <i class="pe-7s-rocket"></i>
-                        <p>حول النظام</p>
-                    </a>
-                </li>
-
-            </ul>
-    	</div>
-    </div>
-
+   
+@include('layouts.sidebar')
     <div class="main-panel">
         <nav class="navbar navbar-default navbar-fixed">
             <div class="container-fluid">
@@ -179,50 +112,7 @@
         @yield('content')
 
 
-        <div class="content">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="card">
-                            <div class="header">
-                                <h4 class="title">رسم بياني يوضح عدد الطلبات  </h4>
-                                <p class="category">من تاريخ بداية السنة</p>
-                            </div>
-                            <div class="content">
-                                <div id="chartPreferences" class="ct-chart ct-perfect-fourth"></div>
-
-                                <div class="footer">
-                                    <div class="legend">
-                                        <i class="fa fa-circle text-info"></i> طلبات التعويض
-                                        <i class="fa fa-circle text-danger"></i> طلبات
-                                        <i class="fa fa-circle text-warning"></i>  الطلبات الراجعة
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card ">
-                            <div class="header">
-                                <h4 class="title">نسبة الارباح خلال السنة </h4>
-                                <p class="category">من تاريخ بداية السنة</p>
-                            </div>
-                            <div class="content">
-                                <div id="chartActivity" class="ct-chart"></div>
-
-                                <div class="footer">
-                                    <div class="legend">
-                                        <i class="fa fa-circle text-info"></i> ارباح السنة
-                                        <i class="fa fa-circle text-danger"></i>ارباح السنوات السابقة
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
+      
 
 
         <footer class="footer">
