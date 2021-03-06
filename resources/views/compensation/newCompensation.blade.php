@@ -5,7 +5,7 @@
                     <div class="col-md-12">
                         <div class="card">
                             <div class="header">
-                                <h4 class="title text-danger" >'طلبات المعاشات الجديدة</h4>
+                                <h4 class="title">'طلبات التعويض الجديدة</h4>
                                 
                             </div>
                             <div class="content table-responsive table-full-width">
@@ -44,7 +44,7 @@
                                         	<td>علي عثمان</td>
                                         	<td>1256687</td>
                                         	<td>مطعم الشايقي</td>
-                                        	<td><a href="/show" class="btn  btn-sm btn-danger">التفاصيل</a></td>
+                                            <td><a href="/show" class="btn  btn-sm btn-danger">التفاصيل</a></td>
                                         </tr>
                                        
                                     </tbody>

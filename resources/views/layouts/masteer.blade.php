@@ -67,34 +67,49 @@
                     </a>
                 </li>
                 <li>
+                
+
                     <a href="/newPensions" class="nav-link">
-                        <i class="pe-7s-user"></i>
-                        <p>الطلبات الجديدة  للمعاشات</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="table.html">
-                        <i class="pe-7s-note2"></i>
-                        <p>عنوان </p>
-                    </a>
-                </li>
-                <li>
-                    <a href="typography.html">
-                        <i class="pe-7s-news-paper"></i>
-                        <p>عنوان</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="icons.html">
-                        <i class="pe-7s-science"></i>
-                        <p>عنوان</p>
+                       
+                        <p  class="text-danger">الطلبات الجديدة  للمعاشات</p>
                     </a>
                 </li>
                 
                 <li>
+                    <a href="/inProcessingPensions">
+                   
+                        <p>قيد المعالجة للمعاشات </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/rejectedPensions">
+                       
+                        <p> الطلبات الراجعة للمعاشات</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/newCompensation">
+                    
+                        <p>الطلبات الجديدة للتعويضات</p>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="inProcessingCompensation">
+                     
+                        <p>الطلبات قيد المالجة للتعويضات</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/rejectedCompensation">
+                        
+                        <p>الطلبات الراجعة للتعويضات</p>
+                    </a>
+                </li>
+                <li>
                     <a href="notifications.html">
-                        <i class="pe-7s-bell"></i>
-                        <p>عنوان</p>
+                     
+                        <p>  شكاوي</p>
                     </a>
                 </li>
 				<li class="active-pro">

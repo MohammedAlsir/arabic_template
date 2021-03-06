@@ -71,35 +71,37 @@
                         <p>الطلبات الجديدة  للمعاشات</p>
                     </a>
                 </li>
+                
                 <li>
-                    <a href="user.html">
-                        <i class="pe-7s-user"></i>
-                        <p>العنوان الاول</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="table.html">
+                    <a href="الطلبات قيد المعالجة للمعاشات">
                         <i class="pe-7s-note2"></i>
-                        <p>عنوان </p>
+                        <p>الطلبات قيد المعالجة للمعاشات </p>
                     </a>
                 </li>
                 <li>
                     <a href="typography.html">
                         <i class="pe-7s-news-paper"></i>
-                        <p>عنوان</p>
+                        <p> الطلبات الراجعة للمعاشات</p>
                     </a>
                 </li>
-                <li>
-                    <a href="icons.html">
-                        <i class="pe-7s-science"></i>
-                        <p>عنوان</p>
-                    </a>
-                </li>
+                
                 
                 <li>
                     <a href="notifications.html">
                         <i class="pe-7s-bell"></i>
-                        <p>عنوان</p>
+                        <p>الطلبات قيد المالجة للتعويضات</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="notifications.html">
+                        <i class="pe-7s-bell"></i>
+                        <p>الطلبات الراجعة للتعويضات</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="notifications.html">
+                        <i class="pe-7s-bell"></i>
+                        <p>  شكاوي</p>
                     </a>
                 </li>
 				<li class="active-pro">

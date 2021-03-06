@@ -5,7 +5,7 @@
                     <div class="col-md-12">
                         <div class="card">
                             <div class="header">
-                                <h4 class="title text-danger" >'طلبات المعاشات الجديدة</h4>
+                                <h4 class="title">طلبات التعويض قيد المعالجة</h4>
                                 
                             </div>
                             <div class="content table-responsive table-full-width">
@@ -23,28 +23,28 @@
                                         	<td>احمد محمد</td>
                                         	<td>124464</td>
                                         	<td>جامعة النيليلن</td>
-                                            <td><a href="/show" class="btn  btn-sm btn-danger">التفاصيل</a></td>
+                                            <td><a href="/inProcessingCompensationshow" class="btn  btn-sm btn-danger">التفاصيل</a></td>
                                         </tr>
                                         <tr>
                                         	<td>2</td>
                                         	<td>خالد</td>
                                         	<td>1248</td>
                                         	<td>جامعة امدرمان</td>
-                                            <td><a href="/show" class="btn  btn-sm btn-danger">التفاصيل</a></td>
+                                            <td><a href="/inProcessingCompensationshow" class="btn  btn-sm btn-danger">التفاصيل</a></td>
                                         </tr>
                                         <tr>
                                         	<td>3</td>
                                         	<td>اسامة خالد</td>
                                         	<td>1234</td>
                                         	<td>شركة بيبسي</td>
-                                            <td><a href="/show" class="btn  btn-sm btn-danger">التفاصيل</a></td>
+                                            <td><a href="/inProcessingCompensationshow" class="btn  btn-sm btn-danger">التفاصيل</a></td>
                                         </tr>
                                         <tr>
                                         	<td>4</td>
                                         	<td>علي عثمان</td>
                                         	<td>1256687</td>
                                         	<td>مطعم الشايقي</td>
-                                        	<td><a href="/show" class="btn  btn-sm btn-danger">التفاصيل</a></td>
+                                            <td><a href="/inProcessingCompensationshow" class="btn  btn-sm btn-danger">التفاصيل</a></td>
                                         </tr>
                                        
                                     </tbody>

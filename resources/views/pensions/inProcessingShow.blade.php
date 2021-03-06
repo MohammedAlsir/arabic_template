@@ -46,6 +46,7 @@
                                     <thead>
                                         <th>رقم الطلب</th>
                                     	<th>تاربخ الطلب</th>
+                                        <th>المرحلة</th>
                                     	<th>تعديل</th>
                                         <th>قبول</th>
                                         <th>رفض</th>
@@ -54,7 +55,7 @@
                                         <tr>
                                         	<td>39</td>
                                         	<td>2021/3/15</td>
-                                       
+                                            <td>مرحلة الاشتراكات</td>
                                         
                                             <td><a href="/newPensions" class="badge   badge-warning">تعديل</a></td>
                                             <td><a href="/newPensions" class="badge   badge-success ">قبول</a></td>
