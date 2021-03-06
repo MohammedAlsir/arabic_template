@@ -5,7 +5,7 @@
 	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>التأمينات المحدودة</title>
+	<title>الصندوق الوطني </title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
@@ -41,7 +41,7 @@
 <body>
 
 <div class="wrapper">
-    <div class="sidebar" data-color="purple" data-image="assets/img/sidebar-5.jpg">
+    <div class="sidebar" data-color="#ffffff" data-image="assets/img/sidebar-5.jpg">
 
     <!--
 
@@ -53,46 +53,64 @@
     	<div class="sidebar-wrapper">
             <div class="logo">
                 <a href="http://www.creative-tim.com" class="simple-text">
-                    التأمينات المحدودة
+                    التأمينات الإجتماعية
                 </a>
             </div>
 
             <ul class="nav">
-                <li class="active">
+                <li class="">
                     <a href="dashboard.html">
                         <i class="pe-7s-graph"></i>
                         <p>الرئيسية</p>
                     </a>
                 </li>
-                <li>
-                    <a href="user.html">
-                        <i class="pe-7s-user"></i>
-                        <p>العنوان الاول</p>
+                <li class="">
+                    <a href= "#b" data-toggle="collapse" aria-controls="ture" >
+                     <span class="hidden-sm hidden-xs">طلبات التعويض</span>
+                     <span><i class="pe-7s-user"></i></span>
+
+
                     </a>
+
+                    <ul class="collapse collapseable" id="b">
+                     <li> <a href="{{'/supervisers/create'}}">الطلبات الجديدة</a> </li>
+                     <li> <a href="{{'/supervisers/show'}}">قيد المراجعة</a> </li>
+                     <li> <a href="{{'/supervisers/show'}}">المرتجع</a> </li>
+                    </ul>
+
                 </li>
-                <li>
-                    <a href="table.html">
-                        <i class="pe-7s-note2"></i>
-                        <p>عنوان </p>
+
+                <li class="active">
+                    <a href= "#c" data-toggle="collapse" aria-controls="ture" >
+                     <span class="hidden-sm hidden-xs">طلبات المعاش</span>
+                     <span><i class="pe-7s-user"></i></span>
                     </a>
+
+                    <ul class="collapse collapseable" id="c">
+                        <li><a href="{{'/supervisers/create'}}">الطلبات الجديدة</a> </li>
+                        <li> <a href="{{'/supervisers/show'}}">قيد المراجعة</a> </li>
+                        <li> <a href="{{'/supervisers/show'}}">المرتجع</a> </li>
+                 </ul>
+
                 </li>
+
                 <li>
                     <a href="typography.html">
                         <i class="pe-7s-news-paper"></i>
-                        <p>عنوان</p>
+                        <p>الشكاوى</p>
                     </a>
                 </li>
                 <li>
                     <a href="icons.html">
                         <i class="pe-7s-science"></i>
-                        <p>عنوان</p>
+                        <p>الدعم الفني</p>
                     </a>
                 </li>
 
                 <li>
                     <a href="notifications.html">
                         <i class="pe-7s-bell"></i>
-                        <p>عنوان</p>
+                        <p>التارير</p>
                     </a>
                 </li>
 				<li class="active-pro">
@@ -101,6 +119,7 @@
                         <p>حول النظام</p>
                     </a>
                 </li>
+
             </ul>
     	</div>
     </div>
@@ -120,7 +139,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li>
                             <a href="#" style="color: brown">
-                                قسم السجلات
+                                قسم الموارد البشرية
                             </a>
                         </li>
                     </ul>
@@ -157,6 +176,7 @@
                 </div>
             </div>
         </nav>
+        @yield('content')
 
 
         <div class="content">
