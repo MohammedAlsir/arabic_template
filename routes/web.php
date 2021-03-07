@@ -32,6 +32,10 @@ Route::get('/rejectedPensions', function () {
     
     return view('pensions.rejected');
 });
+Route::get('/PensionsReport', function () {
+    
+    return view('pensions.report');
+});
 Route::get('/show', function () {
     
     return view('pensions.show');
@@ -51,6 +55,11 @@ Route::get('/inProcessingCompensationshow', function () {
     return view('compensation.inProcessingShow');
     
 });
+Route::get('/CompensationsReport', function () {
+    
+    return view('compensation.report');
+    
+});
 
 
 Route::get('/rejectedCompensation', function () {
@@ -61,5 +70,15 @@ Route::get('/rejectedCompensation', function () {
 Route::get('/Compensation/show', function () {
     
     return view('compensation.show');
+
+});
+Route::get('/ownerReport', function () {
+    
+    return view('reports.ownar');
+
+});
+Route::get('/stateReport', function () {
+    
+    return view('reports.state');
 
 });

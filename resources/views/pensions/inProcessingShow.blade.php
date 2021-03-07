@@ -5,7 +5,7 @@
                     <div class="col-md-6 grid-margin">
                         <div class="card">
                             <div class="header">
-                                <h4 class="title">معلومات العمل</h4>
+                                <h4 class="title text-danger">معلومات العمل</h4>
                                 
                             </div>
                             <div class="content table-responsive ">

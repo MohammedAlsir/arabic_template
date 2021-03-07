@@ -5,7 +5,7 @@
                     <div class="col-md-12">
                         <div class="card">
                             <div class="header">
-                                <h4 class="title">طلبات المعاشات الراجعة</h4>
+                                <h4 class="title text-danger">طلبات المعاشات الراجعة</h4>
                                 
                             </div>
                             <div class="content table-responsive table-full-width">

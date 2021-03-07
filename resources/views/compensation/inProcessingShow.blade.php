@@ -72,7 +72,7 @@
                         <div class="col-md-12">
                         <div class="card">
                             <div class="header">
-                                <h4 class="title">المعلومات الشخصية</h4>
+                                <h4 class="title text-danger">المعلومات الشخصية</h4>
                                 
                             </div>
                             <div class="content table-responsive ">

@@ -112,6 +112,30 @@
                         <p>  شكاوي</p>
                     </a>
                 </li>
+                <li>
+                    <a href="/CompensationsReport">
+                     
+                        <p>    تقرير عن جميع طلبات التعويض  </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/PensionsReport">
+                     
+                        <p>    تقرير عن جميع طلبات المعاشات  </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/stateReport">
+                     
+                        <p>    تقرير عن الطلبات  حسب المرحلة  </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/ownerReport">
+                     
+                        <p>    تقرير عن جميع الطلبات حسب صاحب العمل  </p>
+                    </a>
+                </li>
 				<li class="active-pro">
                     <a href="upgrade.html">
                         <i class="pe-7s-rocket"></i>

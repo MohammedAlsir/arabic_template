@@ -5,7 +5,7 @@
                     <div class="col-md-12">
                         <div class="card">
                             <div class="header">
-                                <h4 class="title">طلبات التعويض قيد المعالجة</h4>
+                                <h4 class="title text-danger">طلبات التعويض قيد المعالجة</h4>
                                 
                             </div>
                             <div class="content table-responsive table-full-width">
